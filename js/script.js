@@ -21,8 +21,6 @@ const color = prompt('Scrivi il tuo colore preferito');
 
 const numero23 = '23';
 
-const message = ``
+const outputStr ='ciao' + name + lastname + color + numero23;
 
-const outputStr ='ciao' + name + ' ' + cognome + ' ' + color + ' ' + numero23 ;
-
-document.getElementById(output_ricevuto).innerHTML = outputStr;
+document.getElementById('output_ricevuto').innerHTML = outputStr;
